@@ -1,0 +1,14 @@
+{
+  "accentColor": "",
+  "enabledCssSnippets": [
+    "hidden-properties",
+    "dataview",
+    "creases",
+    "base",
+    "checkboxes",
+    "buttons"
+  ],
+  "cssTheme": "",
+  "theme": "obsidian",
+  "baseFontSize": 15
+}

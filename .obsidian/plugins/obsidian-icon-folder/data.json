@@ -1,0 +1,63 @@
+{
+  "settings": {
+    "migrated": true,
+    "iconPacksPath": ".obsidian/plugins/obsidian-icon-folder/icons",
+    "fontSize": 16,
+    "emojiStyle": "none",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "LiImage",
+      "LiBell",
+      "LiInbox",
+      "LiRocket",
+      "LiHelpCircle"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": true
+  },
+  "Comes Love.md": "LiMusic",
+  "Ain't No Rest For The Wicked.md": "LiMusic",
+  "Templates": "LiLayoutTemplate",
+  "Projects": {
+    "iconName": "LiFolder",
+    "inheritanceIcon": "LiFolder"
+  },
+  "Clients": "LiUsers",
+  "Tasks": {
+    "iconName": "LiCheckCircle2",
+    "inheritanceIcon": "LiCheckCircle2"
+  },
+  "Dashboard.md": "LiHome",
+  "Time Sheet": {
+    "iconName": "LiClock",
+    "inheritanceIcon": "LiClock"
+  },
+  "Logbook": "LiBook",
+  "Questions": "LiHelpCircle",
+  "Notes": {
+    "iconName": "LiStickyNote",
+    "inheritanceIcon": "LiStickyNote"
+  },
+  "Templates/Task.md": "LiCheckCircle2",
+  "Templates/Time Block Ad Hoc.md": "LiTimer",
+  "Templates/Time Block Linked.md": "LiClock",
+  "Meetings": {
+    "iconName": "LiCalendar",
+    "inheritanceIcon": "LiCalendar"
+  },
+  "Templates/Meeting.md": "LiCalendar",
+  "Templates/Note.md": "LiStickyNote",
+  "Templates/Project.md": "LiFolder",
+  "Templates/Question.md": "LiHelpCircle",
+  "Inbox.md": "LiInbox",
+  "Logbook.md": "LiRocket",
+  "Templates/Daily Log.md": "LiRocket",
+  "Assets": "LiImage"
+}

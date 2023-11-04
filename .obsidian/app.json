@@ -1,0 +1,10 @@
+{
+  "showFrontmatter": true,
+  "showLineNumber": false,
+  "readableLineLength": false,
+  "promptDelete": false,
+  "spellcheck": false,
+  "alwaysUpdateLinks": true,
+  "userIgnoreFilters": null,
+  "attachmentFolderPath": "Assets"
+}

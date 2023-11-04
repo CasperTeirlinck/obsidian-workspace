@@ -1,0 +1,86 @@
+{
+  "confirmDeletion": false,
+  "showAddCommand": false,
+  "debug": false,
+  "editorMenu": [
+    {
+      "id": "obsidian-tasks-plugin:edit-task",
+      "icon": "pencil",
+      "name": "Tasks: Create or edit task",
+      "mode": "any"
+    }
+  ],
+  "fileMenu": [],
+  "leftRibbon": [
+    {
+      "id": "quickadd:choice:c4d37fcf-8661-442b-bed8-1f3080d607b5",
+      "icon": "clock-1",
+      "name": "+Time Block",
+      "mode": "any"
+    },
+    {
+      "id": "quickadd:choice:25ee4377-b999-4760-9e02-04326e2fe5b4",
+      "icon": "alarm-clock",
+      "name": "+Ad Hoc",
+      "mode": "any"
+    },
+    {
+      "id": "quickadd:choice:f16620b0-22af-4291-a0b0-bf28ce34d2ad",
+      "icon": "check-circle-2",
+      "name": "+Task",
+      "mode": "any"
+    },
+    {
+      "id": "quickadd:choice:9fc18c7b-0236-4500-84e3-0b9e18352269",
+      "icon": "calendar",
+      "name": "+Meeting",
+      "mode": "any"
+    },
+    {
+      "id": "quickadd:choice:455b971a-1649-4ee5-bc95-aa3b9347e0d2",
+      "icon": "lucide-pencil",
+      "name": "+Note",
+      "mode": "any"
+    },
+    {
+      "id": "quickadd:choice:75c2fc57-24da-4d03-be49-03fc081b695c",
+      "icon": "help-circle",
+      "name": "+Question",
+      "mode": "any"
+    },
+    {
+      "id": "daily-notes",
+      "icon": "rocket",
+      "name": "+Daily Log",
+      "mode": "any"
+    }
+  ],
+  "rightRibbon": [],
+  "titleBar": [],
+  "statusBar": [],
+  "pageHeader": [
+    {
+      "id": "creases:fold",
+      "icon": "chevrons-down-up",
+      "name": "Fold along creases",
+      "mode": "any"
+    }
+  ],
+  "macros": [],
+  "explorer": [],
+  "hide": {
+    "statusbar": [],
+    "leftRibbon": []
+  },
+  "spacing": 8,
+  "advancedToolbar": {
+    "rowHeight": 48,
+    "rowCount": 1,
+    "spacing": 0,
+    "buttonWidth": 48,
+    "columnLayout": false,
+    "mappedIcons": [],
+    "tooltips": false,
+    "heightOffset": 0
+  }
+}

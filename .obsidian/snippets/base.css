@@ -1,0 +1,15 @@
+.internal-link {
+    text-decoration: none !important;
+}
+
+ul.contains-task-list {
+    padding-inline-start: 0;
+}
+.tasks-count {
+    display: none;
+}
+
+/* Hide "Scripts" folder */
+.nav-files-container .nav-folder:has(> .nav-folder-title[data-path="Scripts"]) {
+    display: none;
+}

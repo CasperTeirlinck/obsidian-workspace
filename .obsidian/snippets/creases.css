@@ -1,0 +1,8 @@
+/* Hide the creases icon when inactive */
+
+.cm-creases-icon {
+    display: none;
+}
+.cm-active > .cm-creases-icon {
+    display: inline;
+}

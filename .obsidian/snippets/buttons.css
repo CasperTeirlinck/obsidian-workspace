@@ -1,0 +1,19 @@
+.cell-task-planned button.button-default {
+    border: 0.5px solid var(--color-accent);
+    padding: 0 0.2rem;
+    margin: 0 5px 0 0;
+    height: auto;
+}
+.cell-task-planned button.button-default:hover {
+    border-color: var(--color-accent-2);
+    box-shadow: none;
+    transform: none;
+    cursor: pointer;
+}
+
+.cell-task-planned ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    /* column-gap: 3px; */
+}

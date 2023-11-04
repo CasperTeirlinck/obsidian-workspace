@@ -1,0 +1,16 @@
+{
+  "style": "solid",
+  "showInInternalEmbed": true,
+  "showInPopover": true,
+  "bannerDragModifier": "Shift",
+  "frontmatterField": ".banner",
+  "enableDragInInternalEmbed": false,
+  "enableDragInPopover": false,
+  "enableLockButton": true,
+  "headerDecor": "shadow",
+  "headerHorizontalAlignment": "left",
+  "headerVerticalAlignment": "edge",
+  "useTwemoji": true,
+  "showPreviewInLocalModal": true,
+  "version": "2.0.0-beta"
+}

@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "type": "file",
+      "ctime": 1693860646002,
+      "path": "Dashboard.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1694855589754,
+      "path": "Inbox.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1694858185236,
+      "path": "Tasks.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1694855593662,
+      "path": "Logbook.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1694860855926,
+      "path": "Projects.md"
+    },
+    {
+      "type": "folder",
+      "ctime": 1694815418015,
+      "path": "Templates"
+    }
+  ]
+}

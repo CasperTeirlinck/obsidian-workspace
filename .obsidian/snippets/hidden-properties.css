@@ -1,0 +1,4 @@
+.markdown-source-view 
+.metadata-property[data-property-key^="."] {
+    display: none;
+}
