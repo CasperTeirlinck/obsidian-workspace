@@ -19,6 +19,7 @@ class Tasks {
                 const workedToday = this.utilsTasks.workedOnToday(dv, task) ? "⌚" : "";
                 const datePlannedFormatted = this.utils.formatRelativeDate(task.planned);
                 const dateDueFormatted = this.utils.formatRelativeDate(task.deadline);
+                const labelYak = dv.func.contains(task.tags, "yak") ? "🐂" : "";
                 const devopsLink = task.devops ? ` [♾️](${task.devops})` : "";
                 const btnSetPlanned = () => {
                     return createButton({
@@ -44,7 +45,7 @@ class Tasks {
                 }
 
                 return [
-                    `:obs_check_in_circle: ${task.file.link}${devopsLink}`,
+                    `:obs_check_in_circle: ${task.file.link}${labelYak}${devopsLink}`,
                     task.project,
                     `${task.status}${workedToday}`,
                     dv.el("div", [
@@ -63,6 +64,9 @@ class Tasks {
     }
     tablePlannedToday(ctx, dv) {
         return this.table(ctx, dv, this.utilsTasks.getTasksPlannedToday(dv));
+    }
+    tableYaks(ctx, dv) {
+        return this.table(ctx, dv, this.utilsTasks.getTasksWithTag(dv, "yak"));
     }
     tableActiveCurrentProject(ctx, dv) {
         return this.table(ctx, dv, this.utilsTasks.getActiveTasks(dv).filter(task => task.project.path == dv.current().file.path));

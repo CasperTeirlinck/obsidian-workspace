@@ -89,6 +89,20 @@ function getTasksPlannedToday(dv) {
 }
 
 /**
+ * Get all tasks planned for today:
+ * - planned date is today
+ * - deadline today or tomorrow or overdue
+ * - worked on today
+ * @param {string} tag
+ */
+function getTasksWithTag(dv, tag) {
+    return dv.pages('"Tasks"')
+        .filter(task => {
+            return dv.func.contains(task.tags, tag)
+        })
+}
+
+/**
  * Get tasks to be shown in inbox.
  */
 function getTasksInbox(dv) {
@@ -170,6 +184,7 @@ function statusCompare(a, b) {
 module.exports = {
     getActiveTasks,
     getTasksPlannedToday,
+    getTasksWithTag,
     getTasksRelated,
     getTasksInbox,
     getTimeBlocks,
